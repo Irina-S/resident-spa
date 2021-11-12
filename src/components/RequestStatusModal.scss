@@ -1,0 +1,29 @@
+.request-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        gap:1rem;    
+        max-width:500px;
+        min-width: 300px;
+        margin:auto;
+        padding: 4rem 3rem;
+        text-align: center;
+        font-size: 1.5rem;;
+        color:#fff;
+        
+        &_success{
+            background: rgb(87, 160, 87);
+        }
+
+        &_error{
+            background: rgb(255, 162, 162);
+        }
+    }
+
+}
